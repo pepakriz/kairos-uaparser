@@ -30,8 +30,9 @@
 
 // REWROTE TO USE JSON INSTEAD OF YAML IT'S FASTER
 
-use \Exception;
-use \stdClass;
+namespace Kairos\UA;
+
+use Exception;
 
 
 class UA {
